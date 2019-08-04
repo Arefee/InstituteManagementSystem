@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title></title>
+    <link href="image/butterfly_PNG1040.png" rel="shotcut icon" />
+
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap/bootstrap-grid.css" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap/bootstrap-grid.css.map" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap/bootstrap-grid.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap/bootstrap-grid.min.css.map" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap/bootstrap-reboot.css" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap/bootstrap-reboot.css.map" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap/bootstrap-reboot.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap/bootstrap-reboot.min.css.map" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap/bootstrap.css.map" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap/bootstrap.min.css.map" />
+    <link href="https://fonts.googleapis.com/css?family=Cairo|Lalezar|Scheherazade&display=swap" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+        <div class="pro">
+            <div class="user-image" id="user-image">
+                <img src="img/download.png" />
+            </div>
+            <div class="user-name">
+                <p>آموزشگاه</p>
+            </div>
+        </div>
+        <div class="d-flex flex-column">
+            <div class="mymenu-item" style=" background-color: rgba(20, 41, 82, .8)">
+                <a href="events.html">
+                    <img src="img/student-read-book-high-education-school-512.png" />
+                    زبان آموزان
+                </a>
+            </div>
+
+            <div class="mymenu-item">
+                <a href="setting.html">
+                    <img src="img/education_004-teaching-teacher-teach-instructor-study-school-512.png" />مدرسان
+                </a>
+            </div>
+            <div class="mymenu-item">
+                <a href="setting.html">
+                    <img src="img/80ddad15a4488ddf2f19da81274e727e-teaching-class-icon-by-vexels.png" />کلاس ها
+                </a>
+            </div>
+            <div class="mymenu-item">
+                <a href="setting.html">
+                    <img src="img/bag-dollar-512.png" />بایگانی
+                </a>
+            </div>
+            <div class="mymenu-item">
+                <a href="index.html"><img src="img/img_376344.jpg" />خروج </a>
+            </div>
+        </div>
+    </div>
+
+    <div id="main">
+        <div class="navbar ">
+            <button class=" openbtn" onclick="openNav()">☰</button>
+        </div>
+        <div class="container">
+            <h1>پرداخت شهریه</h1>
+            <div class="mybox">
+                <form>
+                    <div class="form-group">
+                        <label for="sel1">نحوه پرداخت :</label>
+                        <select class="form-control" id="sel1">
+                            <option>نقدی</option>
+                            <option>کارت</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>شهریه ثابت :</label>
+                        <input type="number" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label>هزینه کتاب :</label>
+                        <input type="number" class="form-control">
+                    </div>
+                    <button type="submit" class="btn btn-light ">ثبت</button>
+                </form>
+
+
+            </div>
+        </div>
+
+        <footer>
+            <p>
+                Copyright © 2019,
+                <a href="https://github.com/Arefee" data-toggle="tooltip" data-placement="top" title="My Github">Arefe
+                    Hamidi</a>. All rights reserved.
+            </p>
+        </footer>
+    </div>
+
+    <script type="text/javascript" src="js/toggleSidebar.js"></script>
+</body>
+
+</html>
